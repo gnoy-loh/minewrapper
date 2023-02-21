@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Сперва загружается скрипт со всем приложением -->
+  <link rel="stylesheet" href="style.css">
+  <script src="src/script.js" defer></script>
+  <title>Aged Minewrapper</title>
+</head>
+<body>
+  <!-- После загрузки, скрипт исполняется и ищет в DOMе дивчик, куда нужно смонтировать приложение -->
+
+<div class="frame-panel">
+  
+
+  <div class="frame-panel__status">
+    <div class="statusbar">
+      <span class="statusbar__minescount">
+        <span class="frame-panel__status-number0"></span>
+        <span class="frame-panel__status-number0"></span>
+        <span class="frame-panel__status-number0"></span>
+      </span>
+
+      <span class="statusbar__smile">
+        <span class="frame-panel__status-smilenice"></span>
+      </span>
+
+      <span class="statusbar__time">
+        <span class="frame-panel__status-number0"></span>
+        <span class="frame-panel__status-number0"></span>
+        <span class="frame-panel__status-number0"></span>
+      </span>
+    </div>    
+  </div>
+
+  <div class="frame-panel__difficult"> <!-- ето кал суда не смотри-->
+    <button>Easy</button>
+    <button>Medium</button>
+    <button>Hard</button>
+  </div>
+
+  <div class="frame-panel__gamespace">
+    <div class="minefield">
+      <span class="minefield__cell"></span>
+      <span class="minefield__cell"></span>
+      <span class="minefield__cell"></span>
+      <span class="minefield__cell"></span>
+      <span class="minefield__cell"></span>
+      <span class="minefield__cell"></span>
+      <span class="minefield__cell"></span>
+      <span class="minefield__cell"></span>
+      <span class="minefield__cell"></span>
+      <span class="minefield__cell"></span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
